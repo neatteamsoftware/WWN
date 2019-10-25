@@ -1,0 +1,21 @@
+.header {
+	width: 100%;
+	height: 100vh;
+	margin-top: 0px;
+	background-image: linear-gradient(var(--accent-color), var(--main-color));
+	transform: skewY(-2deg);
+	transform-origin: top left;
+}
+
+.header h1 {
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) skewY(2deg);
+	color: var(--text-color);
+	font-family: 'Archivo Black';
+	font-size: 5em;
+	margin: 0px;
+	padding: 0px;
+}

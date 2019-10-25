@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Slideshow</title>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="slideshow.css">
+
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	</head>
+
+	<body>
+		<div class="image-slider">
+			<div class="image-slide active">
+				<img src="https://www.cv-library.co.uk/career-advice/wp-content/uploads/2018/06/What-is-it-like-working-in-IT.jpg" width="50%">
+			</div>
+
+			<div class="image-slide">
+				<img src="http://elitebusinessmagazine.co.uk/cache/com_zoo/images/Why%20should%20you%20adopt%20an%20open%20working%20culture%20in%20the%20age%20of%20the%20individual1%20-%20elitebusinessmagazine_c9c911ed5eb267dd453a7a4ee6b8ae32.jpg" width="50%">
+			</div>
+
+			<div class="image-slide">
+				<img src="https://www.lawdonut.co.uk/sites/default/files/home-working-490921930.jpg">
+			</div>
+
+			<a class="prev-slide" onclick="prevSlide()"><i class="fa fa-chevron-left"></i></a>
+			<a class="next-slide" onclick="nextSlide()"><i class="fa fa-chevron-right"></i></a>
+
+			<div class="dot-container">
+				<span class="dot" onclick="setSlide(0)"></span>
+				<span class="dot" onclick="setSlide(1)"></span>
+				<span class="dot" onclick="setSlide(2)"></span>
+			</div>
+		</div>
+
+		<script src="slideshow.js"></script>
+	</body>
+
+</html>
