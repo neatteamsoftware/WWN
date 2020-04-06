@@ -3,6 +3,7 @@
 	--accent-color: rgb(240, 150, 60);
 	--accent-color-transparent: rgba(240, 150, 60, 0.7);
 	--text-color: rgb(240, 240, 240);
+	--text-color-transparent: rgba(240, 240, 240, 0.7);
 	--text-color-reverse: rgb(15, 15, 15);
 }
 
@@ -15,10 +16,4 @@
 body {
 	margin: 0px;
 	padding: 0px;
-}
-
-.content {
-	width: 75%;
-	margin-left: 50%;
-	transform: translateX(-50%);
 }

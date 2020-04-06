@@ -1,7 +1,0 @@
-:root {
-	--accent-color: rgb(240, 150, 60);
-}
-
-.active {
-	color: var(--accent-color);
-}

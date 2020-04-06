@@ -1,0 +1,73 @@
+.top-nav {
+	padding: 20px;
+	text-align: left;
+}
+
+.top-nav .top-nav-items {
+	height: 100vh;
+	max-height: 0px;
+	overflow: hidden;
+	transition: max-height 400ms, padding-top 400ms;
+	display: block;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
+.top-nav .items-open {
+	max-height: none;
+}
+
+.top-nav .top-nav-items li {
+	display: block;
+	width: 100%;
+}
+
+.top-nav .neater-logo {
+	transform: translate(-30%, -25%) rotate(10deg);
+}
+
+.top-nav .title-container .nav-title {
+	margin-right: 0px;
+	margin-left: 40px;
+	transition: margin-right 400ms, color 400ms, margin-left 400ms;
+}
+
+.nav-at-top .title-container .nav-title {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.top-nav .title-container .neater-logo {
+	transform: translate(-30%, -25%) rotate(10deg);
+	transition: opacity 400ms, transform 400ms;
+}
+
+.nav-at-top .title-container .neater-logo {
+	transform: translate(-40px, -25%) rotate(10deg);
+}
+
+.top-nav .toggle-menu {
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	padding: 15px;
+	cursor: pointer;
+	transition: color 400ms;
+}
+
+.top-nav .toggle-menu:hover {
+	color: var(--accent-color);
+}
+
+.top-nav .toggle-menu:active {
+	color: var(--accent-color-transparent);
+}
+
+.nav-at-top .toggle-menu:hover {
+	color: var(--text-color);
+}
+
+.nav-at-top .toggle-menu:active {
+	color: var(--text-color-transparent);
+}

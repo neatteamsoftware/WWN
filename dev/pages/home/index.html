@@ -1,33 +1,26 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 
-	<head>
+    <head>
 		<title>NeatTeam 1943</title>
 
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" href="contact.css">
-		<link rel="stylesheet" href="../../style.css">
-		<link rel="stylesheet" href="../../assets/top-nav/nav.css">
-		<link href="https://fonts.googleapis.com/css?family=Exo+2|Ropa+Sans&display=swap" rel="stylesheet"> 
-	</head>
+		<link rel="stylesheet" href="../../assets/css/style.css">
+		<link rel="stylesheet" href="index.css">
+		<link href="https://fonts.googleapis.com/css?family=Exo+2|Ropa+Sans|Archivo+Black&display=swap" rel="stylesheet"> 
 
-	<body>
-		<nav class="top-nav nav-at-top">
-			<div class="title-container" onclick="location.replace('../../index.html')">
-				<img class="neater-logo" src="../../assets/img/logo.svg" alt="neatteam logo">
-				<h1 class="nav-title">NeatTeam</h1>
-			</div>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 
-			<ul class="top-nav-items">
-				<li>ABOUT US</li>
-				<li>........</li>
-				<li>........</li>
-				<li>........</li>
-				<li class="active" onclick="location.reload()">CONTACT</li>
-			</ul>
-		</nav>
+    <body>
+    	<div id="nav-container">
+    	</div>
+		
+		<header class="header">
+			<h1>Welcome to NeatTeam</h1>
+		</header>
 
 		<div class="content">
 			<p>
@@ -53,7 +46,10 @@ Viverra accumsan in nisl nisi scelerisque. Amet cursus sit amet dictum sit. Pulv
 			</p>
 		</div>
 
-		<script src="../../assets/top-nav/nav.js"></script>
-	</body>
+		<script src="/__/firebase/7.2.1/firebase-app.js"></script>
+		<script src="/__/firebase/7.2.1/firebase-analytics.js"></script>
+		<script src="/__/firebase/init.js"></script>
+		<script src="../../assets/js/nav.js"></script>
+    </body>
 
 </html>
